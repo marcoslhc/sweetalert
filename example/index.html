@@ -73,6 +73,16 @@
 		<pre>swal(<span class="str">"Here's a message!"</span>, <span class="str">"It's pretty, isn't it?"</span>)</pre>
 	</li>
 
+  <li class="remote">
+    <div class="ui">
+      <button>try me!</button>
+    </div>
+    <pre>swal({
+      title: "Remote Address",
+      sourceUrl: "http://google.com"
+    });</pre>
+  </li>
+
 	<li class="success">
 		<div class="ui">
 			<p>A success message!</p>
@@ -280,6 +290,10 @@ document.querySelector('ul.examples li.message button').onclick = function(){
 document.querySelector('ul.examples li.title-text button').onclick = function(){
 	swal("Here's a message!", "It's pretty, isn't it?")
 };
+
+document.querySelector('ul.examples li.remote button').onclick = function () {
+  swal({title:"Heres a remote message", sourceUrl: "http://localhost:8000"});
+}
 
 document.querySelector('ul.examples li.success button').onclick = function(){
 	swal("Good job!", "You clicked the button!", "success");

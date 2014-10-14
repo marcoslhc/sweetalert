@@ -51,7 +51,7 @@
 	vertical-align: middle;
 	position: relative;
 
-	max-height: calc(100vh - 80px);
+	max-height: calc(100vh - #{$padding*2});
 	max-width: $maxWidth;
 	padding: $padding;
 	margin: 30px - $padding auto;

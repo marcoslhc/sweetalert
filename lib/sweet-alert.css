@@ -33,7 +33,7 @@
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  max-height: calc(100vh - 80px);
+  max-height: calc(100vh - 34px);
   max-width: 90vw;
   padding: 17px;
   margin: 13px auto;

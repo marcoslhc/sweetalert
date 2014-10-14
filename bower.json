@@ -1,9 +1,10 @@
 {
   "name": "sweetalert",
-  "version":"v0.2.3",
+  "version":"v0.2.4",
   "homepage": "http://tristanedwards.me/sweetalert",
   "authors": [
-    "Tristan Edwards <tristan.edwards@me.com> (http://tristanedwards.me)"
+    "Tristan Edwards <tristan.edwards@me.com> (http://tristanedwards.me)",
+    "Marcos Hernández <marcoslhernandezc@gmail.com>"
   ],
   "private": true,
   "description": "A beautiful replacement for JavaScript's alert.",

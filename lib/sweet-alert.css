@@ -7,30 +7,49 @@
   top: 0;
   bottom: 0;
   display: none;
+  z-index: 1500; }
+
+.sweet-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  outline: 0;
+  overflow: hidden;
+  height: 100%;
+  height: 100vh;
+  text-align: center;
   z-index: 1000; }
 
+.sweet-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; }
+
 .sweet-alert {
-  background-color: white;
-  font-family: 'Open Sans', sans-serif;
-  width: 478px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  max-height: calc(100vh - 80px);
+  max-width: 90vw;
   padding: 17px;
+  margin: 13px auto;
+  background-color: white;
   border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  margin-left: -256px;
-  margin-top: -200px;
-  overflow: hidden;
   display: none;
+  overflow-x: hidden;
+  outline: 0;
   z-index: 2000; }
   @media all and (max-width: 540px) {
     .sweet-alert {
       width: auto;
       margin-left: 0;
-      margin-right: 0;
-      left: 15px;
-      right: 15px; } }
+      margin-right: 0; } }
   .sweet-alert h2 {
     color: #575757;
     font-size: 30px;
@@ -71,7 +90,7 @@
       .sweet-alert button.cancel:active {
         background-color: #b6b6b6; }
       .sweet-alert button.cancel:focus {
-        box-shadow: rgba(197, 205, 211, 0.8) 0px 0px 2px, rgba(0, 0, 0, 0.0470588) 0px 0px 0px 1px inset !important; }
+        box-shadow: rgba(197, 205, 211, 0.8) 0px 0px 2px, rgba(0, 0, 0, 0.04706) 0px 0px 0px 1px inset !important; }
   .sweet-alert[data-has-cancel-button=false] button {
     box-shadow: none !important; }
   .sweet-alert .icon {

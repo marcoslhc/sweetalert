@@ -1,9 +1,11 @@
 {
   "name": "sweetalert",
+  "version":"2.1",
   "homepage": "http://tristanedwards.me/sweetalert",
   "authors": [
     "Tristan Edwards <tristan.edwards@me.com> (http://tristanedwards.me)"
   ],
+  "private": true,
   "description": "A beautiful replacement for JavaScript's alert.",
   "main": ["lib/sweet-alert.js", "lib/sweet-alert.css"],
   "keywords": [

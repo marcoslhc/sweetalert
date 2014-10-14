@@ -1,6 +1,6 @@
 {
   "name": "sweetalert",
-  "version":"v0.2.2",
+  "version":"v0.2.3",
   "homepage": "http://tristanedwards.me/sweetalert",
   "authors": [
     "Tristan Edwards <tristan.edwards@me.com> (http://tristanedwards.me)"
@@ -12,7 +12,7 @@
     "alert",
     "modal"
   ],
-  ignore:[],
+  "ignore":[],
   "repository": {
     "type": "git",
     "url": "git@github.com:marcoslhc/sweetalert.git"

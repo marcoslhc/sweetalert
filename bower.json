@@ -12,6 +12,7 @@
     "alert",
     "modal"
   ],
+  ignore:[],
   "repository": {
     "type": "git",
     "url": "git@github.com:marcoslhc/sweetalert.git"
